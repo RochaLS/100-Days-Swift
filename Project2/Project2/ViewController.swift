@@ -48,16 +48,18 @@ class ViewController: UIViewController {
         button3.setImage(UIImage(named: countries[2]), for: .normal)
         
         correctAnswer = Int.random(in: 0...2)
-        title = "\(countries[correctAnswer].uppercased()) | Score: \(score) | Question: \(questionCounter)"
+        title = "\(countries[correctAnswer].uppercased()) | Question: \(questionCounter)"
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Score", style: .plain, target: self, action: #selector(scoreButtonTapped))
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
         var title: String
-        var message = "Your score is \(score)"
+        var message: String
         
         if sender.tag == correctAnswer {
             title = "Correct"
             score += 1
+            message = "Your score is \(score)"
         } else {
             title = "Wrong"
             message = "That's the flag of \(countries[sender.tag].capitalized)! | Score: \(score)"
@@ -76,6 +78,13 @@ class ViewController: UIViewController {
         present(ac, animated: true)
         
         questionCounter += 1
+    }
+    
+    @objc func scoreButtonTapped() {
+        let alertVC =  UIAlertController(title: "Your score is \(score)", message: nil, preferredStyle: .alert)
+        alertVC.addAction(UIAlertAction(title: "Nice!", style: .default, handler: nil))
+        
+        present(alertVC, animated: true)
     }
     
 }
