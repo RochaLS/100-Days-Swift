@@ -17,6 +17,7 @@ class ViewController: UITableViewController {
         // Do any additional setup after loading the view.
         
         title = "Storm Viewer"
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareAppButtonTapped))
         navigationController?.navigationBar.prefersLargeTitles = true
         
         let fm = FileManager.default
@@ -29,6 +30,12 @@ class ViewController: UITableViewController {
             }
         }
         pictures.sort()
+    }
+    
+    @objc func shareAppButtonTapped() {
+        let activityController = UIActivityViewController(activityItems: ["I'm using this amazing app called Project 1! Here is the download link : [URL]"], applicationActivities: [])
+        activityController.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(activityController, animated: true)
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
