@@ -18,3 +18,6 @@ Improved the Storm Viewer project allowing users to share image and text outside
 
 ## Milestone Project (1 - 3): Flag Viewer ✅ 🏆
 Used all the knowledge learned from projects 1 - 3 and built this mini app from scratch.
+
+## Project 4: Simple Web Browser ✅
+Learned and implemented a simple web browser using WebKit, UIToolBar, URL and URL request. I had a little refresher about KVO(Key-Value Observing). This was a very fun challenge. 
