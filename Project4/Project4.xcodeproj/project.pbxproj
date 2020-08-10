@@ -13,6 +13,7 @@
 		1667A8EA24DE3E3E006179E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1667A8E824DE3E3E006179E0 /* Main.storyboard */; };
 		1667A8EC24DE3E40006179E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1667A8EB24DE3E40006179E0 /* Assets.xcassets */; };
 		1667A8EF24DE3E40006179E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1667A8ED24DE3E40006179E0 /* LaunchScreen.storyboard */; };
+		16F65F9F24E1F9CF008FA279 /* SelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F65F9E24E1F9CF008FA279 /* SelectionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1667A8EB24DE3E40006179E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1667A8EE24DE3E40006179E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1667A8F024DE3E40006179E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F65F9E24E1F9CF008FA279 /* SelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1667A8E224DE3E3E006179E0 /* AppDelegate.swift */,
 				1667A8E424DE3E3E006179E0 /* SceneDelegate.swift */,
 				1667A8E624DE3E3E006179E0 /* ViewController.swift */,
+				16F65F9E24E1F9CF008FA279 /* SelectionTableViewController.swift */,
 				1667A8E824DE3E3E006179E0 /* Main.storyboard */,
 				1667A8EB24DE3E40006179E0 /* Assets.xcassets */,
 				1667A8ED24DE3E40006179E0 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				1667A8E724DE3E3E006179E0 /* ViewController.swift in Sources */,
 				1667A8E324DE3E3E006179E0 /* AppDelegate.swift in Sources */,
+				16F65F9F24E1F9CF008FA279 /* SelectionTableViewController.swift in Sources */,
 				1667A8E524DE3E3E006179E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
