@@ -21,3 +21,6 @@ Used all the knowledge learned from projects 1 - 3 and built this mini app from 
 
 ## Project 4: Simple Web Browser ✅
 Learned and implemented a simple web browser using WebKit, UIToolBar, URL and URL request. I had a little refresher about KVO(Key-Value Observing). This was a very fun challenge. 
+
+## Project 5: Word Scramble ✅
+Create a mini word scramble game where the user needs find anagrams from the given word. This project was a very good refresher to me about inserting rows at a UITableView. Learned accepting input from a textfield inside Alert Controller, and how to check text for misspelling using UITextChecker. Reviewed important concepts about closures and capture lists.
