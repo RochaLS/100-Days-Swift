@@ -56,7 +56,9 @@ class ViewController: UIViewController {
             label.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
             
             // Setting label height to occupy 1/5 of the view, - 10 for the spacingx
-            label.heightAnchor.constraint(equalToConstant: view.frame.height / 5 - 10).isActive = true
+            
+//            label.heightAnchor.constraint(equalToConstant: view.frame.height / 5 - 10).isActive = true
+            label.heightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.heightAnchor, multiplier: 0.2).isActive = true
             
             // We want the top anchor of the label to be the bottom of the previous one (the one in the above it)
             if let previous = previous {
