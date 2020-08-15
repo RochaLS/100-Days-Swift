@@ -1,4 +1,4 @@
-# 100-Days-Swift
+# 100 Days of Swift 
 100 days of Swift challenge!
 
 ## Project 1: Storm Viewer ✅
