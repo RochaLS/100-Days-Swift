@@ -30,3 +30,6 @@ This small projects were a good refresher on different ways to use Auto Layout. 
 
 ## Milestone Project (4 - 6): Shopping List ✅ 🏆
 Used all the knowlegde acquired from projects 4 - 6 and built a basic shopping list app that allows users to add items, clear the whole list and share items added outside the app (ie: sharing on email). I was able to practice and improve my skills on closures, capture lists, tableViews, UIAlertControllers, toolbarItems and ActivityViewControllers.
+
+## Project 7: Whitehouse Petitions ✅
+Created a list of real petitions sent to Whitehouse. Got all the data using the "We The People API of the Whitehouse". This project was a good refresher on how to get and parse JSON data from the internet using the Codable Protocol. Learned how to load web view directly from HTML and  Implemented a filtering by text function using a Alert Controller with a textfield.
