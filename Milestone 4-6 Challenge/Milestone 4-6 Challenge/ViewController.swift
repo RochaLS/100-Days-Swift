@@ -67,7 +67,7 @@ class ViewController: UITableViewController {
         if !items.isEmpty {
             let list = items.joined(separator: "/n") // Separating array forming one big string separated by /n
             let activityVC = UIActivityViewController(activityItems: [list], applicationActivities: [])
-            present(activityVC, animated: true)
+            present(activityVC, animated: true  )
         }
         
     }
